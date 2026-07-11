@@ -204,3 +204,26 @@ Multi-Client-Arbitration-and-Resource-Allocation-Engine/
 │   └── mode_switching.png
 ├── LICENSE
 └── README.md
+---
+
+## Project Outcomes
+
+* **Understanding of Arbitration Architectures:** Developed deep functional expertise in modeling multi-master conflict resolution, parameterizable multiplexing schemes, and dynamic prioritization sub-systems.
+* **Hardware Fairness vs Complexity Trade-Offs:** Gained practical exposure balancing structural efficiency (e.g., Fixed Priority logic loops) against enhanced algorithmic fairness (e.g., Dynamic Aging tracking structures), optimizing for both gate count and path delay.
+* **RTL Design Experience:** Mastered writing robust, synthesizable, synchronous Verilog architectures adhering to rigorous clean-coding design styles.
+* **Verification Methodology:** Established a balanced verification framework combining directed boundary testing and pseudo-random simulation to achieve wide functional validation coverage.
+* **FPGA Implementation Exposure:** Acquired hands-on proficiency analyzing real synthesis metrics, resource utilization reports, and timing budgets to successfully close timing constraints.
+* **Relevance to RTL Design and Verification Roles:** Proves solid foundational competency across front-end design, RTL microarchitecture, validation, and standard industrial FPGA compilation flows.
+
+---
+
+## Author
+
+**Samarpan Acharya** B.Tech, Electronics and Communication Engineering  
+National Institute of Technology Rourkela  
+
+---
+
+## License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
