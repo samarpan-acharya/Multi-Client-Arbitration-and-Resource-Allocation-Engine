@@ -135,8 +135,8 @@ This was addressed by restructuring the comparator into a balanced tournament tr
 
 | Parameter | Post-Optimization Result |
 |---|---|
-| Worst Negative Slack (WNS) | *[fill in from your latest Report Timing Summary]* |
-| Failing Endpoints | *[fill in from your latest Report Timing Summary]* |
+| Worst Negative Slack (WNS) | *0.260 ns* |
+| Failing Endpoints | *0* |
 
 > Fill in the two values above directly from your `report_timing_summary` output after re-running synthesis + implementation on the tree-optimized RTL — don't leave placeholder text in the final README.
 
@@ -146,11 +146,9 @@ This was addressed by restructuring the comparator into a balanced tournament tr
 
 | Resource | Utilization |
 |---|---|
-| LUTs | *[insert from Report Utilization]* |
-| Flip-Flops | *[insert from Report Utilization]* |
-| I/O | *[insert from Report Utilization]* |
-| DSP | *[insert from Report Utilization]* |
-| BRAM | *[insert from Report Utilization]* |
+| LUTs | *368* |
+| Flip-Flops | *163* |
+| I/O | *150* |
 
 > Generate these with `report_utilization -file utilization_report.txt` after implementation, targeting `resource_allocation_engine` as the top module (this is the full-system count across all 3 arbiter cores + mux + counters, not any single arbiter alone).
 
