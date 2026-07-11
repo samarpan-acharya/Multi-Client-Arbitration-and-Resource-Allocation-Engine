@@ -150,8 +150,6 @@ This was addressed by restructuring the comparator into a balanced tournament tr
 | Flip-Flops | *163* |
 | I/O | *150* |
 
-> Generate these with `report_utilization -file utilization_report.txt` after implementation, targeting `resource_allocation_engine` as the top module (this is the full-system count across all 3 arbiter cores + mux + counters, not any single arbiter alone).
-
 ---
 
 ## Verification Methodology
@@ -176,11 +174,9 @@ This was addressed by restructuring the comparator into a balanced tournament tr
 - **Verilog HDL** — RTL and testbench implementation.
 - **Xilinx Vivado Design Suite 2014.1**:
   - Vivado Simulator (XSim) — behavioral simulation and waveform debugging.
-  - Vivado Synthesis — RTL-to-gate technology mapping.
-  - Vivado Implementation — placement and routing.
+  - Vivado Synthesis — RTL
   - Vivado Timing Analyzer — Static Timing Analysis and slack reporting.
   - Vivado Report Utilization — LUT/FF/I-O resource accounting.
-- **Git and GitHub** — version control and repository hosting.
 
 ---
 
