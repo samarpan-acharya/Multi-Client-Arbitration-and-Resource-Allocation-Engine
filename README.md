@@ -135,7 +135,7 @@ This was addressed by restructuring the comparator into a balanced tournament tr
 
 | Parameter | Post-Optimization Result |
 |---|---|
-| Worst Negative Slack (WNS) | *0.260 ns* |
+| Worst Negative Slack (WNS) | *2.094 ns* |
 | Failing Endpoints | *0* |
 
 > Fill in the two values above directly from your `report_timing_summary` output after re-running synthesis + implementation on the tree-optimized RTL — don't leave placeholder text in the final README.
