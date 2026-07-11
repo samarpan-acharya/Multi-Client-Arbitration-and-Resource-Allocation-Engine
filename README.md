@@ -136,6 +136,9 @@ Timing Analysis
      │
      ▼
 Utilization Reports
+
+---
+
 ### Persistent Contention Scenario
 
 ![Resource Allocation](waveforms/resource_allocation_full.png)
