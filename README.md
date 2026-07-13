@@ -21,7 +21,6 @@ This project models that problem directly: 8 client channels contend for 2 share
 - Runtime mode switching (`mode[1:0]`) with no reset of arbitration state: all three cores run continuously in parallel, so each policy's internal fairness history (rotation pointer, age counters) is preserved even while not selected.
 - Live hardware counters for per-resource utilization, contention, and idle cycles, verified directly against simulation.
 - Directed verification across single-request, multi-client contention, full 8-client persistent-contention, and mode-switching scenarios.
-- Synthesizable Verilog HDL (IEEE 1364-2001 style), structured for the Vivado 2014.1 RTL/simulation/synthesis flow.
 - Timing-driven RTL rework: the Dynamic Priority arbiter's winner-selection logic was restructured from a linear 8-stage comparator chain into a balanced tournament-tree comparator to reduce critical-path depth.
 
 ---
