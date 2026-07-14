@@ -11,7 +11,7 @@ This project implements a configurable, parameterizable shared-resource allocati
 In multi-master SoC interconnects, functional blocks frequently compete for a limited pool of shared resources — buses, memory ports, or accelerator lanes. Without an organized 
 
 This project models that problem directly: 8 client channels contend for 2 shared resource slots, arbitrated by one of three interchangeable policies. Each policy makes a different trade-off between logic simplicity, fairness, and starvation resistance, and all three are integrated behind one interface so the active policy can be changed at runtime via a `mode[1:0]` control input.
-
+scheduling layer, this leads to unpredictable latency and unfair access distribution.
 ---
 
 ## Key Highlights
