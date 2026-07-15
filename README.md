@@ -1,6 +1,6 @@
 # Multi-Client Arbitration and Resource Allocation Engine
 
-This project implements a configurable, parameterizable shared-resource allocation engine in synthesizable Verilog HDL. The design supports concurrent access requests from 8 independent clients competing for 2 shared hardware resources, and integrates three distinct arbitration policies — Fixed Priority, Round Robin, and Dynamic Priority (Aging-Based) — behind a single runtime-selectable interface.
+ implements a configurable, parameterizable shared-resource allocation engine in synthesizable Verilog HDL. The design supports concurrent access requests from 8 independent clients competing for 2 shared hardware resources, and integrates three distinct arbitration policies — Fixed Priority, Round Robin, and Dynamic Priority (Aging-Based) — behind a single runtime-selectable interface.
 
 ![Resource Allocation Engine Architecture](images/resource_allocation_engine_block_diagram.svg)
 
